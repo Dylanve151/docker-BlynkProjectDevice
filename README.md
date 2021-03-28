@@ -1,5 +1,5 @@
 # docker-BlynkProjectDevice
-deploy for raspiberry:
+deploy for Raspberry pi:
 ```
 docker run --name="BlynkProjectDevice" --restart="always" --volume /sys/class/gpio:/sys/class/gpio --volume /sys/devices/platform/soc/:/sys/devices/platform/soc/ dylanve115/blynkprojectdevice:raspi
 ```
