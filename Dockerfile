@@ -10,4 +10,4 @@ ENV BLYNKSERVER_PORT 8083
 ENV BLYNKSERVER_TOKEN TOKEN
 COPY connectproject.js .
 RUN chmod 755 *.js
-CMD [ "node /root/connectproject.js" ]
+CMD node /root/connectproject.js
