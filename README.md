@@ -1,7 +1,7 @@
 # docker-BlynkProjectDevice
 deploy for raspiberry:
 ```
-docker build --name="BlynkProjectDevice" --restart="always" --device /dev/gpiomem  dylanve115/blynkprojectdevice:raspi
+docker run --name="BlynkProjectDevice" --restart="always" --device /dev/gpiomem  dylanve115/blynkprojectdevice:raspi
 ```
 ## Environment variables:
 ### Required:
