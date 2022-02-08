@@ -9,5 +9,6 @@ ENV BLYNKSERVER_IP 192.168.1.250
 ENV BLYNKSERVER_PORT 8083
 ENV BLYNKSERVER_TOKEN TOKEN
 COPY connectproject.js .
+COPY vpins-conf.js .
 RUN chmod 755 *.js
 CMD node /root/connectproject.js
